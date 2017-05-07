@@ -24,7 +24,12 @@ html, body {
     bottom: 5%;
     right: 5%;
     text-align: right;
-    color: #000000;
+    color: #fff;
+    text-shadow: 2px 2px #000000
+}
+.caption .head1,.headp1{
+    color: #e3ff00;
+    text-shadow: 2px 2px #000000;
 }
 p, h1 { margin: 0; }
 h1 { margin-bottom: 0.2em; }
@@ -57,14 +62,14 @@ p { line-height: 1.333em; }
     background-size: cover;
 }
 #slide-2 {
-    background: url('../img/bcg_slide-2.jpg') no-repeat center center;
+    background: url('../img/aut2.png') no-repeat center center;
     background-size: cover;
     -webkit-transform: translate(0,100%);
     -ms-transform: translate(0,100%);
     transform: translate(0,100%);
 }
 #slide-3 {
-    background: url('../img/bcg_slide-3.jpg') no-repeat center center;
+    background: url('../img/aut.png') no-repeat center center;
     background-size: cover;
     -webkit-transform: translate(100%,100%);
     -ms-transform: translate(100%,100%);
@@ -73,7 +78,8 @@ p { line-height: 1.333em; }
 #slide-3 .caption {
     left: 5%;
     right: auto;
-    color: #47373f;
+    color: #fff;
+    text-shadow: 2px 2px #000000;
 }
 #slide-4 {
     background: url('../img/bcg_slide-4.jpg') no-repeat center center;
@@ -87,7 +93,7 @@ p { line-height: 1.333em; }
     left: 5%;
     top: 5%;
     bottom: auto;
-    color: #47373f;
+    color: #fff;
 }
 
 #helper {
