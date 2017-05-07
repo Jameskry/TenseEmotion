@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Demo: A Fullscreen Slideshow using Skrollr.js</title>
+    <meta name="description" content="Learn how to create a fullscreen slideshow for your scrolling website.">
+    
+    <link rel="author" href="https://plus.google.com/u/0/109859280204979591787/about"/>
+
+    <!--iOS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+	<!-- Demo content -->			
+	<div id="page-content">
+       <div id="perspective">
+
+        <div class="myBox"
+            data--20p-bottom="transform: rotateX(-90deg)"
+            data--50p-bottom="transform: rotateX(0deg)"
+        >
+            <div class="myBoxB">
+              <span> Side B</span>
+            </div> 
+         Side A
+         </div>
+        </div>
+	</div>
+	<!-- /Demo content -->   
+    
+    <script type="text/javascript" src="js/skrollr.min.js"></script>
+    <script type="text/javascript">
+        var s = skrollr.init();
+    </script>
+</body>
+</html>
