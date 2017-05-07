@@ -87,7 +87,7 @@ while True:
         nose = noseCascade.detectMultiScale(roi_gray)
 
         for (nx,ny,nw,nh) in nose:
-            # Un-comment the next line for debug (draw box around the nose)
+            Un-comment the next line for debug (draw box around the nose)
             #cv2.rectangle(roi_color,(nx,ny),(nx+nw,ny+nh),(255,0,0),2)
 
             # The mustache should be three times the width of the nose
